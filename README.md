@@ -1,47 +1,42 @@
 
-NoCheatPlus
+NoHackPlus
 ---------
-[![Build Status](https://ci.codemc.io/buildStatus/icon?job=Updated-NoCheatPlus%2FUpdated-NoCheatPlus)](https://ci.codemc.io/job/Updated-NoCheatPlus/job/Updated-NoCheatPlus/)
-[![Discord](https://img.shields.io/discord/598285007496151098?label=discord&logo=discord)](https://discord.gg/NASKHYc)
 
-Updated-NoCheatPlus is a continuation of the famous anti-cheat plugin NoCheatPlus, introduced by [NeatMonster](https://github.com/NeatMonster) and [Asofold](https://github.com/asofold) building on the code base of [NoCheat](https://github.com/md-5/NoCheat), created by [Evenprime](https://github.com/Evenprime).
+NoHackPlus is a fork of Updated-NoCheatPlus.
 
-NoCheatPlus attempts to enforce "vanilla Minecraft" mechanics, as well as preventing players from abusing weaknesses in Minecraft or its protocol, making your server more safe. Organized in different sections, various checks are performed to test players doing, covering a wide range including flying and speeding, fighting hacks, fast block breaking and nukers, inventory hacks, chat spam and other types of malicious behaviour.
+NoHackPlus attempts to enforce "vanilla Minecraft" mechanics, as well as preventing players from abusing weaknesses in Minecraft or its protocol, making your server more safe. Organized in different sections, various checks are performed to test players doing, covering a wide range including flying and speeding, fighting hacks, fast block breaking and nukers, inventory hacks, chat spam and other types of malicious behaviour.
 
 Installation
 ---------
-* [Install a Spigot server](https://github.com/Updated-NoCheatPlus/NoCheatPlus/#obtain-a-build-of-spigot)
-* [Download NoCheatPlus](https://github.com/Updated-NoCheatPlus/NoCheatPlus/#download)
-* Drop the NoCheatPlus.jar in to the plugins folder.
-* Start your Spigot/CraftBukkit server. (Using /reload can have unwanted side effects with players still online, but also with complex plugins and cross-plugin dependencies, so we don't recommend it. Usually it should work with NCP.)
+* [Install a Spigot server](https://github.com/rockyskies/NoHackPlus/#obtain-a-build-of-spigot)
+* [Download NoHackPlus](https://github.com/rockyskies/NoHackPlus/releases/latest)
+* Drop the NoHackPlus.jar in to the plugins folder.
+* Start your Spigot/CraftBukkit server. (Using /reload can have unwanted side effects with players still online, but also with complex plugins and cross-plugin dependencies, so we don't recommend it. Usually it should work with NHP.)
 
 Hints
 ---------
-* Be sure that your Spigot/CraftBukkit and NoCheatPlus versions match together. The latest version of NCP is compatible with a wide range of CraftBukkit/Spigot versions.
+* Be sure that your Spigot/CraftBukkit and NoHackPlus versions match together. The latest version of NHP is compatible with a wide range of CraftBukkit/Spigot versions.
 * Don't use tabs in the config.yml file.
-* Use [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) for full efficiency of the fight checks and other. Using a version of ProtocolLib that is supported by NCP is essential, as otherwise some checks will be disabled.
+* Use [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) for full efficiency of the fight checks and other. Using a version of ProtocolLib that is supported by NHP is essential, as otherwise some checks will be disabled.
 * For compatibility with other plugins such as mcMMO, citizens and more check out [CompatNoCheatPlus](https://github.com/Updated-NoCheatPlus/CompatNoCheatPlus).
 
 Links
 ---------
 
 ###### Download
-* [Jenkins (current)](https://ci.codemc.io/job/Updated-NoCheatPlus/job/Updated-NoCheatPlus/)
-* [BukkitDev (legacy)](https://dev.bukkit.org/projects/nocheatplus/files/)
-* [SpigotMC (legacy)](https://www.spigotmc.org/resources/nocheatplus2015-07-25.26/updates)
-* [Jenkins (legacy)](https://ci.md-5.net/job/NoCheatPlus/)
+* [GitHub (current)](https://github.com/rockyskies/NoHackPlus/releases/latest)
 
 ###### Support and Documentation
-* [Issues/Tickets](https://github.com/Updated-NoCheatPlus/NoCheatPlus/issues)
+* [Issues/Tickets](https://github.com/rockyskies/NoHackPlus/issues)
 * [Wiki](https://github.com/Updated-NoCheatPlus/Docs)
 * [Configuration](https://github.com/Updated-NoCheatPlus/Docs#configuration)
 * [Permissions](https://github.com/Updated-NoCheatPlus/Docs/blob/master/Settings/Permissions.md)
 * [Commands](https://github.com/Updated-NoCheatPlus/Docs/blob/master/Settings/Commands.md)
 
 ###### Developers
-* [License (GPLv3)](https://github.com/Updated-NoCheatPlus/NoCheatPlus/blob/master/LICENSE.txt)
+* [License (GPLv3)](https://github.com/rockyskies/NoHackPlus/blob/master/LICENSE.txt)
 * [API](https://github.com/Updated-NoCheatPlus/Docs/blob/master/Development/API.md)
-* [Contribute](https://github.com/Updated-NoCheatPlus/NoCheatPlus/blob/master/CONTRIBUTING.md)
+* [Contribute](https://github.com/rockyskies/NoHackPlus/blob/master/CONTRIBUTING.md)
 
 ###### Related Plugins
 * [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
@@ -52,7 +47,7 @@ Links
 * [Run according to instructions](https://www.spigotmc.org/wiki/buildtools/)
 * ([Server installation instructions](https://www.spigotmc.org/wiki/spigot-installation/))
 
-Compiling NoCheatPlus
+Compiling NoHackPlus
 ---------
 * We use [Maven](http://maven.apache.org/download.cgi) 3 to handle the dependencies. Tested both with Eclipse and Jenkins is Maven 3.3.9.
 * You can compile with this Maven goal: `mvn clean package`, for a build without any of the "non free" modules, which depened on not publicly downloadable resources, such as the CraftBukkit/Spigot server jar - the reflection based compatibility module is still contained. 
